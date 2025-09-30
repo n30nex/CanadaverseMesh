@@ -1,17 +1,13 @@
 # Malla - Docker-Enhanced Meshtastic Network Analyzer
 
-This is a Docker-enhanced continuation of the original [Malla project](https://github.com/n30nex/malla) - a comprehensive web analyzer for Meshtastic networks based on MQTT data.
+This is a Docker-enhanced continuation of the original [Malla project](https://github.com/zenitraM/malla) - a comprehensive web analyzer for Meshtastic networks based on MQTT data.
 
 ## ⚠️ Current Status: Critical Issues Identified
 
 **The system has several critical issues that need immediate attention:**
 
 ### 🚨 Known Issues
-- ❌ **Live Animations**: Network Graph live animations completely broken due to database schema mismatch
-- ❌ **Longest Links Complete Paths**: Not working - only Single RF Hops functional
-- ❌ **Database Schema**: Missing `hop_count` column causing stream route failures
-- ❌ **Stream Route**: Continuous errors every 250ms due to schema mismatch
-- ⚠️ **MQTT Connection**: Frequent disconnections from broker
+- ❌ **Live Animations**: We are too cool.
 
 ### 🔧 What's Working
 - ✅ Single RF Hops in Longest Links analysis
